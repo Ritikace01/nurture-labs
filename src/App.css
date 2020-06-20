@@ -28,6 +28,46 @@
   color: #61dafb;
 }
 
+.container-1 {
+  display: flex;
+}
+
+.container-2 {
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 4vw;
+}
+
+.container-3 {
+  flex-direction: row;
+}
+
+.container-4 {
+  display: flex;
+}
+
+.card-1 {
+  flex: 1;
+}
+
+.card-2 {
+  flex: 3;
+}
+
+.flex-width {
+  flex-basis: 100%;
+  justify-content: space-between;
+}
+
+.img-adjust {
+  width: 100%;
+  height: auto;
+}
+
+.col-style {
+  justify-content: left !important;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
